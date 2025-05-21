@@ -9,5 +9,6 @@ import (
 func main() {
 	router := gin.Default()
 	router.GET("/albums", handlers.GetAlbums)
+	router.GET("/products", handlers.GetProducts)
 	router.Run("localhost:8080")
 }
