@@ -1,0 +1,21 @@
+# Executables
+*.exe
+*.out
+*.dll
+*.so
+
+# Vendor (optional)
+vendor/
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.bak
+
+# Env and sensitive config
+.env
+.env.local
+
+# Dependency cache
+go.sum
